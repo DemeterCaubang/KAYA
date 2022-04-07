@@ -1,0 +1,7 @@
+{
+  "name": "kalinga-at-yakap-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
