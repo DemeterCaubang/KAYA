@@ -74,6 +74,20 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* font change */
+  --ion-font-family: 'NotoSans', 'Elika Gorica';
+}
+
+/*custom fonts*/
+@font-face {
+  font-family: 'Elika Gorica';
+  src: url('/assets/fonts/Elika Gorica.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('/assets/fonts/NotoSans-Regular.ttf');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -153,7 +167,7 @@
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: #222837;
     --ion-background-color-rgb: 0,0,0;
 
     --ion-text-color: #ffffff;
@@ -197,7 +211,7 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: #222837;
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -227,9 +241,9 @@
 
     --ion-item-background: #1e1e1e;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #222837;
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-tab-bar-background: #222837;
 
     --ion-card-background: #1e1e1e;
   }
