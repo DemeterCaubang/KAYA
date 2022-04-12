@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'kalinga-at-yakap-app',
+  appName: 'Kalinga At Yakap App',
   webDir: 'www',
   bundledWebRuntime: false
 };
